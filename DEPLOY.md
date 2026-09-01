@@ -9,34 +9,29 @@ This folder IS the repository. Do not nest it inside another folder.
 
 Opens at http://localhost:8501
 
-## 2. Create the GitHub repo
+## 2. GitHub repo
 
-github.com/new -> name it exactly: ProStackHub_MedRisk
-Set to PUBLIC. Do not tick "Add a README" (this folder has one).
+Already created and pushed: https://github.com/RihamFouad/Prostackhup_medrisk
+(main branch, remote "origin" already set up in this folder)
 
-## 3. Push
+If you ever need to push again after local changes:
 
-Open a terminal INSIDE this folder, then:
-
-    git init
     git add .
-    git commit -m "MedRisk Streamlit app"
-    git branch -M main
-    git remote add origin https://github.com/YOUR-USERNAME/ProStackHub_MedRisk.git
-    git push -u origin main
+    git commit -m "your message"
+    git push
 
-## 4. Deploy
+## 3. Deploy
 
 1. share.streamlit.io
 2. Sign in with GitHub, authorise access
 3. New app -> Deploy a public app from GitHub
-4. Repository:      YOUR-USERNAME/ProStackHub_MedRisk
+4. Repository:      RihamFouad/Prostackhup_medrisk
 5. Branch:          main
 6. Main file path:  app/app.py      <- change this, it defaults to streamlit_app.py
 7. Deploy
 
 First build takes 3-5 minutes. You get a URL like
-https://prostackhub-medrisk.streamlit.app
+https://prostackhup-medrisk.streamlit.app
 
 ## What the app needs at runtime
 
