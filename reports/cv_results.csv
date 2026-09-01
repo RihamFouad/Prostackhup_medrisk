@@ -1,0 +1,5 @@
+model,cv_roc_auc_mean,cv_roc_auc_std,best_params
+Logistic Regression,0.9067796133013525,0.024117019750758598,{'C': 1.0}
+SVM (RBF),0.9015799015799015,0.023745641795610506,"{'C': 10.0, 'gamma': 0.01}"
+Random Forest,0.8912626825670305,0.022238816395974116,"{'max_depth': 5, 'min_samples_leaf': 1, 'n_estimators': 600}"
+XGBoost,0.8725144420796594,0.022844970510578263,"{'learning_rate': 0.03, 'max_depth': 2, 'n_estimators': 200, 'subsample': 1.0}"

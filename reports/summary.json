@@ -1,0 +1,22 @@
+{
+  "n_patients": 303,
+  "positive_rate": 0.45874587458745875,
+  "best_model": "Logistic Regression",
+  "cv_roc_auc": 0.9067796133013525,
+  "operating_threshold": 0.24,
+  "test_metrics_at_threshold": {
+    "threshold": 0.24,
+    "accuracy": 0.819672131147541,
+    "precision": 0.717948717948718,
+    "recall": 1.0,
+    "f1": 0.835820895522388,
+    "roc_auc": 0.9534632034632036,
+    "pr_auc": 0.9344755255721208,
+    "tn": 22,
+    "fp": 11,
+    "fn": 0,
+    "tp": 28,
+    "model": "Logistic Regression",
+    "operating_point": "cost-optimal 0.24"
+  }
+}
